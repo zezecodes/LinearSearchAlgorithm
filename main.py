@@ -19,8 +19,3 @@ def verify(index):
         print("Target found at index: ", index)
     else:
         print("Target not found")   
-
-Values = [10,9,7,5,6,3,1,2,15,26,8]
-result = binary_search(Values, 25)
-ver = verify(result)
-print(ver)
